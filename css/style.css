@@ -320,9 +320,26 @@ body{
     .main__offer__buttons{
         right: 36%;
     }
+    .main__bg{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .main__bg__inside__title {
+        font-size: 30px;
+        line-height: 35px;
+    }
 }
 @media(max-width:413px){
     .main__offer__buttons{
         right: 32%;
+    }
+    .main__bg__inside__title {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .main__bg__inside__text {
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 22px;
     }
 }
