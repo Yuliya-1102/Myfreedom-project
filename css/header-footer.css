@@ -289,11 +289,15 @@ body{
         text-align: center;
         flex-direction: column;
     }
-    .header__items{
-        display: none;
-    }
     .footer__sun-img{
         width: 300px;
         height: auto;
     }
+}
+@media(max-width: 420px){
+    
+    .header__items{
+        display: none;
+    }
+    
 }
