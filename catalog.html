@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/normalize.css">
+        <link rel="stylesheet" href="./css/header-footer.css">
+        <link rel="stylesheet" href="./css/catalog.css">
+        <title>Catalog</title>
+    </head>
+
+    <body>
+        <header class="header">
+            <div class="container">
+                <div class="header__wrapper">
+                    <div class="header__logo">
+                        <a class="header__logo-link" href="index.html"><img class="header__logo-img"
+                                src="./images/LOGO.svg" alt="logo"></a>
+                    </div>
+                    <div class="header__navigation">
+                        <ul class="header__list">
+                            <li class="header__list-item"><a class="header__list-link" href="catalog.html">Каталог</a>
+                            </li>
+                            <li class="header__list-item"><a class="header__list-link" href="about.html">О нас</a></li>
+                            <li class="header__list-item"><a class="header__list-link"
+                                    href="conditions.html">Условия</a></li>
+                            <li class="header__list-item"><a class="header__list-link" href="contacts.html">Контакты</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="header__search">
+                        <input class="header__search-input" type="text" placeholder="Поиск">
+                        <button class="header__search-button">
+                            <div class="header__search-search">
+                                <img class="header__search-img" src="./images/search-normal.svg" alt="search">
+                            </div>
+                        </button>
+                    </div>
+                    <div class="header__img-list">
+                        <div class="header__items"><a href="#"><img src="./images/heart.svg" alt="heart"></a></div>
+                        <div class="header__items"><a href="#"><img src="./images/user.svg" alt="user"></a></div>
+                        <div class="header__items"><a href="#"><img src="./images/bag-2.svg" alt="bag"></a></div>
+                        <div class="header__burger">
+                            <img src="./images/burger-menu-svgrepo-com.svg" alt="menu" class="header__burger-img">
+                            <!-- mobile navigation -->
+                            <div class="header__navigation header__navigation_mobile">
+                                <ul class="header__list">
+                                    <li class="header__list-item"><a class="header__list-link"
+                                            href="catalog.html">Каталог</a></li>
+                                    <li class="header__list-item"><a class="header__list-link" href="about.html">О
+                                            нас</a></li>
+                                    <li class="header__list-item"><a class="header__list-link"
+                                            href="conditions.html">Условия</a></li>
+                                    <li class="header__list-item"><a class="header__list-link"
+                                            href="contacts.html">Контакты</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </header>
+        <nav class="navbar">
+            <div class="navbar-container container">
+                <input class="navbar-click" type="checkbox" name="" id="">
+                <div class="hamburger-lines">
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                    <span class="line line3"></span>
+                </div>
+                <ul class="menu-items">
+                    <div class="wrapper1">
+                        <div class="choose">
+                            <div class="size">
+                                <h3>Размер</h3>
+                                <div class="choose-size">
+                                    <input value="2" type="checkbox">
+                                    <p>50-62</p>
+                                </div>
+                                <div class="choose-size">
+                                    <input value="1" type="checkbox">
+                                    <p>68-80</p>
+                                </div>
+                                <div class="choose-size">
+                                    <input value="1" type="checkbox">
+                                    <p>86-98</p>
+                                </div>
+                                <div class="choose-size">
+                                    <input value="1" type="checkbox">
+                                    <p>104-116</p>
+                                </div>
+                                <div class="choose-size">
+                                    <input value="1" type="checkbox">
+                                    <p>122-134</p>
+                                </div>
+                            </div>
+                            <div class="price">
+                                <h3>Цена</h3>
+                                <input type="range">
+                                <p>от 200 BYN до 400 BYN</p>
+                            </div>
+                            <div class="size">
+                                <h3>Сезон</h3>
+                                <div class="choose-size">
+                                    <input type="checkbox">
+                                    <p>Осень-Зима</p>
+                                </div>
+                                <div class="choose-size">
+                                    <input type="checkbox">
+                                    <p>Весна-Лето</p>
+                                </div>
+                                <div class="size">
+                                    <h3>Вид одежды</h3>
+                                    <div class="choose-size">
+                                        <input type="checkbox">
+                                        <p>Платья</p>
+                                    </div>
+                                    <div class="choose-size">
+                                        <input type="checkbox">
+                                        <p>Комбензоны</p>
+                                    </div>
+                                    <div class="choose-size">
+                                        <input type="checkbox">
+                                        <p>Рубашки</p>
+                                    </div>
+                                    <div class="choose-size">
+                                        <input type="checkbox">
+                                        <p>Штанишки</p>
+                                    </div>
+                                    <div class="choose-size">
+                                        <input type="checkbox">
+                                        <p>Костюмы</p>
+                                    </div>
+                                    <button type="submit
+                                " class="complete">Применить</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </ul>
+            </div>
+        </nav>
+        <main>
+
+
+
+            <div class="container">
+                <div class="wrapper">
+                    <div class="choose">
+                        <div class="size">
+                            <h3>Размер</h3>
+                            <div class="choose-size">
+                                <input value="1" type="checkbox">
+                                <p>50-62</p>
+                            </div>
+                            <div class="choose-size">
+                                <input value="1" type="checkbox">
+                                <p>68-80</p>
+                            </div>
+                            <div class="choose-size">
+                                <input value="1" type="checkbox">
+                                <p>86-98</p>
+                            </div>
+                            <div class="choose-size">
+                                <input value="1" type="checkbox">
+                                <p>104-116</p>
+                            </div>
+                            <div class="choose-size">
+                                <input value="1" type="checkbox">
+                                <p>122-134</p>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <h3>Цена</h3>
+                            <!--   <input class="pi-input2" id="pi_input" min="0" max="400" type="range"> -->
+                            <input id="pi_input" min="0" max="400" type="range">
+                            <p>от <output id="value"></output> BYN до 400 BYN</p>
+                        </div>
+                        <div class="size">
+                            <h3>Сезон</h3>
+                            <div class="choose-size">
+                                <input type="checkbox">
+                                <p>Осень-Зима</p>
+                            </div>
+                            <div class="choose-size">
+                                <input type="checkbox">
+                                <p>Весна-Лето</p>
+                            </div>
+                            <div class="size">
+                                <h3>Вид одежды</h3>
+                                <div class="choose-size">
+                                    <input type="checkbox">
+                                    <p>Платья</p>
+                                </div>
+                                <div class="choose-size">
+                                    <input type="checkbox">
+                                    <p>Комбензоны</p>
+                                </div>
+                                <div class="choose-size">
+                                    <input type="checkbox">
+                                    <p>Рубашки</p>
+                                </div>
+                                <div class="choose-size">
+                                    <input type="checkbox">
+                                    <p>Штанишки</p>
+                                </div>
+                                <div class="choose-size">
+                                    <input type="checkbox">
+                                    <p>Костюмы</p>
+                                </div>
+                                <button type="submit
+                                " class="complete">Применить</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clothes">
+                        <div class="input-button">
+                            <button class="gender">Девочки</button>
+                            <button class="gender">Мальчики</button>
+                            <div class="clothes-input">
+                                <input placeholder="Порядок по умолчанию" type="search">
+                                <button class="output">
+                                    <img src="./img/arrow-down.png" alt="">
+                                </button>
+                            </div>
+                            <div class="center-gender">
+                                <div class="choose-gender">
+                                    <label for="cars">Выберите пол:</label>
+                                    <select name="cars" id="cars">
+                                        <option value="volvo">Мальчики</option>
+                                        <option value="saab">Девочки</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="line">
+                            <div class="block">
+                                <div class="image">
+                                    <img src="./img/clothes/clothes1.png" alt="">
+                                    <div class="icons">
+                                        <img src="./img/shopping-cart.svg" alt="">
+                                        <img src="./img/favorite.svg" alt="">
+                                        <img src="./img/search-zoom-in.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="text">
+                                    <h4>Платье “Зефирка”</h4>
+                                    <p>165 BYN</p>
+                                </div>
+                            </div>
+                            <div class="block">
+                                <div class="image">
+                                    <img src="./img/clothes/cloth2.png" alt="">
+                                    <div class="icons">
+                                        <img src="./img/shopping-cart.svg" alt="">
+                                        <img src="./img/favorite.svg" alt="">
+                                        <img src="./img/search-zoom-in.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="text">
+                                    <h4>Штанишки "Пепе"</h4>
+                                    <p>150 BYN</p>
+                                </div>
+                            </div>
+                            <div class="block">
+                                <div class="image">
+                                    <img src="./img/clothes/cloth3.png" alt="">
+                                    <div class="icons">
+                                        <img src="./img/shopping-cart.svg" alt="">
+                                        <img src="./img/favorite.svg" alt="">
+                                        <img src="./img/search-zoom-in.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="text">
+                                    <h4>Платье "Умка"</h4>
+                                    <p>180 BYN</p>
+                                </div>
+                            </div>
+
+
+                            <div class="block">
+                                <div class="image">
+                                    <img src="./img/clothes/cloth4.png" alt="">
+                                    <div class="icons">
+                                        <img src="./img/shopping-cart.svg" alt="">
+                                        <img src="./img/favorite.svg" alt="">
+                                        <img src="./img/search-zoom-in.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="text">
+                                    <h4>Комбинезон “Тучка”</h4>
+                                    <p>120 BYN</p>
+                                </div>
+                            </div>
+                            <div class="block">
+                                <div class="image">
+                                    <img src="./img/clothes/cloth5.png" alt="">
+                                    <div class="icons">
+                                        <img src="./img/shopping-cart.svg" alt="">
+                                        <img src="./img/favorite.svg" alt="">
+                                        <img src="./img/search-zoom-in.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="text">
+                                    <h4>Костюм “Дымка”</h4>
+                                    <p>130 BYN</p>
+                                </div>
+                            </div>
+                            <div class="block">
+                                <div class="image">
+                                    <img src="./img/clothes/cloth6.png" alt="">
+                                    <div class="icons">
+                                        <img src="./img/shopping-cart.svg" alt="">
+                                        <img src="./img/favorite.svg" alt="">
+                                        <img src="./img/search-zoom-in.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="text">
+                                    <h4>Платье “Фея”</h4>
+                                    <p>120 BYN</p>
+                                </div>
+                            </div>
+                            <div class="block">
+                                <div class="image">
+                                    <img src="./img/clothes/cloth7.png" alt="">
+                                    <div class="icons">
+                                        <img src="./img/shopping-cart.svg" alt="">
+                                        <img src="./img/favorite.svg" alt="">
+                                        <img src="./img/search-zoom-in.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="text">
+                                    <h4>Платье “Стихия”</h4>
+                                    <p>120 BYN</p>
+                                </div>
+                            </div>
+                            <div class="block">
+                                <div class="image">
+                                    <img src="./img/clothes/cloth8.png" alt="">
+                                    <div class="icons">
+                                        <img src="./img/shopping-cart.svg" alt="">
+                                        <img src="./img/favorite.svg" alt="">
+                                        <img src="./img/search-zoom-in.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="text">
+                                    <h4>Комбинезон “Солнце”</h4>
+                                    <p>130 BYN</p>
+                                </div>
+                            </div>
+                            <div class="block">
+                                <div class="image">
+                                    <img src="./img/clothes/cloth9.png" alt="">
+                                    <div class="icons">
+                                        <img src="./img/shopping-cart.svg" alt="">
+                                        <img src="./img/favorite.svg" alt="">
+                                        <img src="./img/search-zoom-in.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="text">
+                                    <h4>Комбинезон "Лисенок"</h4>
+                                    <p>180 BYN</p>
+                                </div>
+                            </div>
+                        </div>
+                        <section>
+                            <ul class="pages">
+                                <li class="page"><a href=""><img src="img/arrow-left.svg"></a></li>
+                                <li class="page"><a href="">1</a></li>
+                                <li class="page"><a href="">2</a></li>
+                                <li class="page"><a href="">3</a></li>
+                                <li class="page"><a href="">4</a></li>
+                                <li class="page"><a href="">.....</a></li>
+                                <li class="page"><a href="">57</a></li>
+                                <li class="page"><a href="">58</a></li>
+                                <li class="page"><a href="">59</a></li>
+                                <li class="page"><a href="">60</a></li>
+                                <li class="page"><a href=""><img src="img/arrow-right.svg"></a></li>
+
+
+
+                            </ul>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__wrapper">
+                    <div class="footer__info footer__item">
+                        <h3 class="footer__info_name">LINAZA.KIDS</h3>
+                        <div class="footer__info_phone">
+                            <div class="footer__info_phone-img">
+                                <img class="footer__info_phone-image" src="./images/telefone.svg" alt="phone">
+                            </div>
+                            <a class="footer__info_phone-number" href="tel:+37533222223">+375 (33) 222 22 23</a>
+                        </div>
+                        <div class="footer__info_email">
+                            <div class="footer__info_email-img">
+                                <img class="footer__info_email-image" src="./images/sms.svg" alt="email">
+                            </div>
+                            <a class="footer__info_email-email"
+                                href="email:linaza.kids@gmail.com">linaza.kids@gmail.com</a>
+                        </div>
+                        <div class="footer__info_social">
+                            <div class="footer__info_social-item">
+                                <a class="footer__info_social-instagram" href="#"><img
+                                        class="footer__info_social-instagram-img" src="./images/instagram.svg"
+                                        alt="instagram"></a>
+                            </div>
+                            <div class="footer__info_social-item">
+                                <a class="footer__info_social-facebook" href="#"><img
+                                        class="footer__info_social-facebook-img" src="./images/facebook.svg"
+                                        alt="facebook"></a>
+                            </div>
+                            <div class="footer__info_social-item">
+                                <a class="footer__info_social-twitter" href="#"><img
+                                        class="footer__info_social-twitter-img" src="./images/twitter.svg"
+                                        alt="twitter"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__catalog footer__item">
+                        <h4 class="footer__catalog-title">Каталог</h4>
+                        <a class="footer__catalog-link" href="#">Девочки</a>
+                        <a class="footer__catalog-link" href="#">Мальчики</a>
+                        <a class="footer__catalog-link" href="#">Таблица размеров</a>
+                    </div>
+                    <div class="footer__forcustomers footer__item">
+                        <h4 class="footer__forcustomers-title">Покупателям</h4>
+                        <a class="footer__forcustomers-link" href="#">Оплата</a>
+                        <a class="footer__forcustomers-link" href="#">Условия доставки</a>
+                        <a class="footer__forcustomers-link" href="#">Правила возврата</a>
+                        <a class="footer__forcustomers-link" href="#">Персональные данные</a>
+                        <a class="footer__forcustomers-link" href="#">Публичная офера</a>
+                    </div>
+                    <div class="footer__about footer__item">
+                        <h4 class="footer_about-title">О компании</h4>
+                        <a class="footer__about-link" href="about.html">О нас</a>
+                        <a class="footer__about-link" href="#">Вакансии</a>
+                        <a class="footer__about-link" href="#">Связаться с нами</a>
+                        <a class="footer__about-link" href="contacts.html">Контакты</a>
+                    </div>
+                </div>
+                <p class="footer__rights">©2022 LINAZA.KIDS</p>
+                <div class="footer__sun">
+                    <img class="footer__sun-img" src="./images/sunbackground.png" alt="sun">
+                </div>
+            </div>
+        </footer>
+        <script src="./js/catalog.js">
+
+        </script>
+
+    </body>
+
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/contacts.css">
+    <link rel="stylesheet" href="./css/header-footer.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="header__logo">
+                    <a class="header__logo-link" href="index.html"><img class="header__logo-img" src="./images/LOGO.svg" alt="logo"></a>
+                </div>
+                <div class="header__navigation">
+                    <ul class="header__list">
+                        <li class="header__list-item"><a class="header__list-link" href="catalog.html">Каталог</a></li>
+                        <li class="header__list-item"><a class="header__list-link" href="about.html">О нас</a></li>
+                        <li class="header__list-item"><a class="header__list-link" href="conditions.html">Условия</a></li>
+                        <li class="header__list-item"><a class="header__list-link" href="contacts.html">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="header__search">
+                    <input class="header__search-input" type="text" placeholder="Поиск">
+                    <button class="header__search-button">
+                        <div class="header__search-search">
+                            <img class="header__search-img" src="./images/search-normal.svg" alt="search">
+                        </div>
+                    </button>
+                </div>
+                <div class="header__img-list">
+                    <div class="header__items"><a href="#"><img src="./images/heart.svg" alt="heart"></a></div>
+                    <div class="header__items"><a href="#"><img src="./images/user.svg" alt="user"></a></div>
+                    <div class="header__items"><a href="#"><img src="./images/bag-2.svg" alt="bag"></a></div>
+                    <div class="header__burger">
+                        <img src="./images/burger-menu-svgrepo-com.svg" alt="menu" class="header__burger-img">
+                        <!-- mobile navigation -->
+                        <div class="header__navigation header__navigation_mobile">
+                            <ul class="header__list">
+                                <li class="header__list-item"><a class="header__list-link" href="catalog.html">Каталог</a></li>
+                                <li class="header__list-item"><a class="header__list-link" href="about.html">О нас</a></li>
+                                <li class="header__list-item"><a class="header__list-link" href="conditions.html">Условия</a></li>
+                                <li class="header__list-item"><a class="header__list-link" href="contacts.html">Контакты</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="contacts">
+            <div class="container">
+                <h1 class="contacts__title">Контакты</h1>
+                <div class="contacts__wrapper">
+                    <div class="contacts__data">
+                        <h2 class="contacts__data__title">Наш юридический адрес:</h2>
+                        <p class="contacts__data__text">206101, Беларусь, г. Минск, ул. П.Бровки, д. 25, ком. 3</p>
+                        <p class="contacts__data__text">Заказы обрабатываются каждый день
+                            пн-вс 9:00-21:00</p>
+                        <div class="contacts__data__link__wrapper">
+                            <div class="contacts__data__link">
+                                <img src="./images/telefone.svg" alt="telefone">
+                                <a href="tel:+375332222223">+375 (33) 222 22 23</a>
+                            </div>
+                            <div class="contacts__data__link">
+                                <img src="./images/sms.svg" alt="sms">
+                                <a href="email:linaza.kids@gmail.com">linaza.kids@gmail.com</a>
+                            </div>
+                            <div class="contacts__data__link bottom">
+                                <img src="./images/instagram.svg" alt="instagram">
+                                <img src="./images/facebook.svg" alt="facebook">
+                                <img src="./images/twitter.svg" alt="twitter">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contacts__connection">
+                        <h2 class="contacts__connection__title">Написать нам</h2>
+                        <form class="contacts__connection__form" action="#" method="get">
+                            <div class="contacts__connection__telefon">
+                                <label for="yes">Телефон</label>
+                                <input class="input__search" type="search" placeholder="+375 (33) 611 28 34" name="Search">
+                            </div>
+                            <div class="contacts__connection__email">
+                                <label for="yes">Email</label>
+                                <input class="input__search" type="email" placeholder="ivanova@mail.ru" name="email">
+                            </div>
+                            <div class="contacts__connection__mesege">
+                                <label for="yes">Сообщение</label>
+                                <textarea>Текст</textarea>
+                            </div>
+                            <button class="contacts__connection__button">Отправить</button>
+                            <div class="contacts__connection__scam">
+                                <input class="input__checkbox" id="agree" type="checkbox" checked required name="checkbox">
+                                <label for="agree">даю свое согласие на обработку и использование моих персональных данных
+                                </label>
+                            </div>
+                        </form>
+                    </div>   
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__info footer__item">
+                    <h3 class="footer__info_name">LINAZA.KIDS</h3>
+                    <div class="footer__info_phone">
+                        <div class="footer__info_phone-img">
+                            <img class="footer__info_phone-image" src="./images/telefone.svg" alt="phone">
+                        </div>
+                        <a class="footer__info_phone-number" href="tel:+37533222223">+375 (33) 222 22 23</a>
+                    </div>
+                    <div class="footer__info_email">
+                        <div class="footer__info_email-img">
+                            <img class="footer__info_email-image" src="./images/sms.svg" alt="email">
+                        </div>
+                        <a class="footer__info_email-email" href="email:linaza.kids@gmail.com">linaza.kids@gmail.com</a>
+                    </div>
+                    <div class="footer__info_social">
+                        <div class="footer__info_social-item">
+                            <a class="footer__info_social-instagram" href="#"><img class="footer__info_social-instagram-img" src="./images/instagram.svg" alt="instagram"></a>
+                        </div>
+                        <div class="footer__info_social-item">
+                            <a class="footer__info_social-facebook" href="#"><img class="footer__info_social-facebook-img" src="./images/facebook.svg" alt="facebook"></a>
+                        </div>
+                        <div class="footer__info_social-item">
+                            <a class="footer__info_social-twitter" href="#"><img class="footer__info_social-twitter-img" src="./images/twitter.svg" alt="twitter"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__catalog footer__item">
+                    <h4 class="footer__catalog-title">Каталог</h4>
+                        <a class="footer__catalog-link" href="#">Девочки</a>
+                        <a class="footer__catalog-link" href="#">Мальчики</a>
+                        <a class="footer__catalog-link" href="#">Таблица размеров</a>
+                </div>
+                <div class="footer__forcustomers footer__item">
+                    <h4 class="footer__forcustomers-title">Покупателям</h4>
+                    <a class="footer__forcustomers-link" href="#">Оплата</a>
+                    <a class="footer__forcustomers-link" href="#">Условия доставки</a>
+                    <a class="footer__forcustomers-link" href="#">Правила возврата</a>
+                    <a class="footer__forcustomers-link" href="#">Персональные данные</a>
+                    <a class="footer__forcustomers-link" href="#">Публичная офера</a>
+                </div>
+                <div class="footer__about footer__item">
+                    <h4 class="footer_about-title">О компании</h4>
+                    <a class="footer__about-link" href="about.html">О нас</a>
+                    <a class="footer__about-link" href="#">Вакансии</a>
+                    <a class="footer__about-link" href="#">Связаться с нами</a>
+                    <a class="footer__about-link" href="contacts.html">Контакты</a>
+                </div>
+            </div>
+            <p class="footer__rights">©2022 LINAZA.KIDS</p>
+            <div class="footer__sun">
+                <img class="footer__sun-img" src="./images/sunbackground.png" alt="sun">
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

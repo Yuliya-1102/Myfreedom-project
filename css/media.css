@@ -1,0 +1,33 @@
+@media(max-width:1100px){
+    .main__offer__buttons{
+        right: 44%;
+    }
+}
+@media(max-width:1066px){
+    .main__offer__buttons:first-child{
+        left: 47%;
+    }
+}
+@media(max-width:858px){
+    .main__offer__buttons{
+        right: 43%;
+    }
+}
+@media(max-width:800px){
+    .main__offer__buttons{
+        right: 41%;
+    }
+    .main__offer__buttons:first-child{
+        left: 46%;
+    }
+}
+@media(max-width:600px){
+    .main__offer__buttons{
+        right: 36%;
+    }
+}
+@media(max-width:413px){
+    .main__offer__buttons{
+        right: 32%;
+    }
+}
