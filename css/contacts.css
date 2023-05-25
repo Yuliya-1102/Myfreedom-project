@@ -138,8 +138,33 @@ textarea {
 
 .contacts__connection__scam {
     max-width: 412px;
+    
+}
+.contacts__connection__scam label{
     display: flex;
     align-items: center;
+}
+/* custom */
+.input__checkbox {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.contacts__connection__scam span {
+    margin: 9px 0px;
+    margin-right: 7px;
+    margin-left: 2px;
+    border: 2px solid #7f7f7f;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    border-radius: 7px;
+    flex-shrink: 0;
+}
+
+.contacts__connection__scam input:checked + span{
+    background-color: #A3CECE;
 }
 
 @media(max-width:670px) {

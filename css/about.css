@@ -127,6 +127,10 @@ align-items: center; */
     .about__top__wrapper{
         flex-wrap: wrap;
     }
+    .about__top-title{
+        margin-top: 20px;
+        text-align: center;
+    }
 }
 @media(max-width: 950px){
     .about-button_history{
