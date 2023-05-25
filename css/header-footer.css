@@ -87,6 +87,11 @@ body{
 
 .header__items{
     padding-left: 12px;
+    
+}
+.header__items img{
+    width: 100%;
+    height: 100%;
 }
 
 .header__list-link:hover {
@@ -289,11 +294,14 @@ body{
         text-align: center;
         flex-direction: column;
     }
-    .header__items{
-        display: none;
-    }
     .footer__sun-img{
         width: 300px;
         height: auto;
     }
+}
+@media(max-width: 420px){
+    .header__burger {
+        margin-left: 12px;
+    }
+    
 }
